@@ -4,9 +4,41 @@
     <head>
         <meta charset="UTF-8">
         <title>Poligram</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script src="global.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#TopBar-Nav-Home").addClass("disabled active")
+            });
+        </script>
     </head>
     
-    <body>
-        <p>test</p>
+    <body style="background-image: url('Media/Background.png');">
+        <div id="TopBar">
+            <nav id="TopBarNav"></nav>
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" data-toggle="tab" href="#Intro">Introduction</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#MyWebsites">Websites</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab-content">
+            <div class="tab-pane container active text-center" id="Intro">
+                <h1><strong><u>Introduction</u></strong></h1>
+            </div>
+            <div class="tab-pane container fade text-center" id="MyWebsites">
+                <h1><strong><u>List of my Websites</u></strong></h1>
+            </div>
+        </div>
     </body>
 </html>
