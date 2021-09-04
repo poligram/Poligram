@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <title>Poligram</title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -24,10 +24,10 @@
 
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                  <a class="nav-link active" data-toggle="tab" href="#Intro">Introduction</a>
+                    <a class="nav-link active" data-toggle="tab" href="#Intro">Introduction</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#MyWebsites">Websites</a>
+                    <a class="nav-link" data-toggle="tab" href="#MyWebsites">Websites</a>
                 </li>
             </ul>
         </div>
@@ -35,10 +35,107 @@
         <div class="tab-content">
             <div class="tab-pane container active text-center" id="Intro">
                 <h1><strong><u>Introduction</u></strong></h1>
+                <br>
+                <p>Hello, I am Poligram and I like to make random things in a variety of different programming languages.</p>
+                <p>I can program in: c++, java (sort of), javascript and c#. I like programming in c++ the most as it give's me an amount of creative
+                    freedom that you cannot get from other languages due to it's heavy optimization.
+                </p>
+                <br>
+
+                <h3><strong><u>Other things I like to do</u></strong></h3>
+
+                <h5><strong><u>Physics</u></strong></h5>
+                <p>One of the main things in my life that I have been interested in since I learned about it was physics. Nothing in life drives me more than
+                    the thought of one day being able to become a theoretical physicist, I hope one day that I can reach that goal.
+                </p>
+
+                <br>
+                <h5><strong><u>Engineering</u></strong></h5>
+                <p>This ties in a little bit to the physics part, engineering, for me is endlessly entertaining. I love electrical and electronic engineering. To me
+                    it is facinating how an electron, that you are unable to see with the naked eye is able to transfer so much energy. For this same reason radio
+                    communications is also interesting to me.
+                </p>
+
+                <br>
+                <h5><strong><u>Chemistry</u></strong></h5>
+                <p>Everyone loves chemistry, I do not really have a lot to say here.
+                </p>
+
+                <br>
+                <h5><strong><u>Mathematics</u></strong></h5>
+                <p>This will sound a little bit strange but I am in strong belief that their is nothing more satisfying than solving really long equations, it's
+                    just so neat and tidy. Mathematics is just really satisfying.
+                </p>
+
+                <br>
+                <h5><strong><u>3D Modelling</u></strong></h5>
+                <p>Although I am not exactly good at doing this, I do really love 3D Modelling. The fact that I can practically put a realistic rendition of our
+                    world on my hard drive is just really strange. 3D Modelling is really fun.
+                </p>
             </div>
             <div class="tab-pane container fade text-center" id="MyWebsites">
                 <h1><strong><u>List of my Websites</u></strong></h1>
+                <br>
+
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#PersonalSites">
+                                Personal Sites
+                            </a>
+                        </div>
+                        <div id="PersonalSites" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <p><a href="https://poligram.github.io/Poligram/">Poligram Website</a> - Personal Site</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#JokeSitesC">
+                                Joke Sites
+                            </a>
+                        </div>
+                        <div id="JokeSitesC" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                <p><a href="https://poligram.github.io/DwayneWebsite/">Dwayne Website</a> - A joke website that is about Dwayne "The Rock" Johnson.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#GameSites">
+                                Game Sites
+                            </a>
+                        </div>
+                        <div id="GameSites" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#MiscSites">
+                                Miscellaneous Sites
+                            </a>
+                        </div>
+                        <div id="MiscSites" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
             </div>
+        </div>
+
+        <div>
+            <footer id="FooterInPage"></footer>
         </div>
     </body>
 </html>
