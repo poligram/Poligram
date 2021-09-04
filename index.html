@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Poligram</title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -13,7 +14,7 @@
         <script src="global.js"></script>
         <script>
             $(document).ready(function() {
-                $("#TopBar-Nav-Home").addClass("disabled active")
+                $("#TopBar-Nav-Home").addClass("disabled active");
             });
         </script>
     </head>
@@ -76,15 +77,16 @@
             <div class="tab-pane container fade text-center" id="MyWebsites">
                 <h1><strong><u>List of my Websites</u></strong></h1>
                 <br>
+                <p>A list of all of my public websites.</p>
 
                 <div id="accordion">
                     <div class="card">
                         <div class="card-header">
-                            <a class="collapsed card-link" data-toggle="collapse" href="#PersonalSites">
+                            <a class="card-link" data-toggle="collapse" href="#PersonalSites">
                                 Personal Sites
                             </a>
                         </div>
-                        <div id="PersonalSites" class="collapse" data-parent="#accordion">
+                        <div id="PersonalSites" class="collapse show" data-parent="#accordion">
                             <div class="card-body">
                                 <p><a href="https://poligram.github.io/Poligram/">Poligram Website</a> - Personal Site</p>
                             </div>
@@ -93,11 +95,11 @@
 
                     <div class="card">
                         <div class="card-header">
-                            <a class="card-link" data-toggle="collapse" href="#JokeSitesC">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#JokeSitesC">
                                 Joke Sites
                             </a>
                         </div>
-                        <div id="JokeSitesC" class="collapse show" data-parent="#accordion">
+                        <div id="JokeSitesC" class="collapse" data-parent="#accordion">
                             <div class="card-body">
                                 <p><a href="https://poligram.github.io/DwayneWebsite/">Dwayne Website</a> - A joke website that is about Dwayne "The Rock" Johnson.</p>
                             </div>
@@ -130,7 +132,7 @@
                     </div>
                 </div>
 
-                <br>
+                <br><br>
             </div>
         </div>
 
